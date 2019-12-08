@@ -6,6 +6,7 @@
 
 import React from 'react';
 import LongestCrawl from './LongestCrawl.js';
+import PopularCharacter from './PopularCharacter.js';
 
 class ShootButton extends React.Component {
 
@@ -26,6 +27,7 @@ class ShootButton extends React.Component {
          questions = (
          <div>
               <LongestCrawl/>
+              <PopularCharacter/> 
          </div>
          )
     }

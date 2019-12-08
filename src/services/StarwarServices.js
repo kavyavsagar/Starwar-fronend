@@ -7,3 +7,8 @@ export const LongestCharService = data => {
 
 	return fetch("http://localhost:5000/api/longestcrawl")
 }
+
+export const PopularCharService = data => {
+
+	return fetch("http://localhost:5000/api/popularcharacter")
+}
