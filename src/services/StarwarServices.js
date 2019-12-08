@@ -2,23 +2,23 @@
  * Created at : 07-12-2019
  * Author : Kavya Sagar
  */
-
+ 
 export const LongestCharService = data => {
 
-	return fetch("http://localhost:5000/api/longestcrawl")
+	return fetch("https://starwar-universe-api.herokuapp.com/api/longestcrawl")
 }
 
 export const PopularCharService = data => {
 
-	return fetch("http://localhost:5000/api/popularcharacter")
+	return fetch("https://starwar-universe-api.herokuapp.com/api/popularcharacter")
 }
 
 export const PopularSpeciesService = data => {
 
-	return fetch("http://localhost:5000/api/popularspecies")
+	return fetch("https://starwar-universe-api.herokuapp.com/api/popularspecies")
 }
 
 export const PopularPilotService = data => {
 	
-	return fetch("http://localhost:5000/api/popularpilots")
+	return fetch("https://starwar-universe-api.herokuapp.com/api/popularpilots")
 }
