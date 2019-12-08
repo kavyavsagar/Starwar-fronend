@@ -17,3 +17,8 @@ export const PopularSpeciesService = data => {
 
 	return fetch("http://localhost:5000/api/popularspecies")
 }
+
+export const PopularPilotService = data => {
+	
+	return fetch("http://localhost:5000/api/popularpilots")
+}

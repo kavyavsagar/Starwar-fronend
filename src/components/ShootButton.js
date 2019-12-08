@@ -8,6 +8,7 @@ import React from 'react';
 import LongestCrawl from './LongestCrawl.js';
 import PopularCharacter from './PopularCharacter.js';
 import PopularSpecies from './PopularSpecies.js';
+import PopularPilot from './PopularPilot.js';
 
 class ShootButton extends React.Component {
 
@@ -27,9 +28,10 @@ class ShootButton extends React.Component {
     if ( this.state.displayQuestions ) {
          questions = (
          <div>
-              <LongestCrawl/>
-              <PopularCharacter/>
+              <LongestCrawl/> 
+              <PopularCharacter/> 
               <PopularSpecies/>
+              <PopularPilot/>
          </div>
          )
     }
